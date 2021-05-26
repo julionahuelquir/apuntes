@@ -1,0 +1,20 @@
+div {
+    width: 340px;
+    /* height: 400px; sin esto se ajusta a la altura del contenido*/
+    border: 1px solid black;
+    
+
+    /*overflow: scroll tambien sirve para que no "revalse" un afoto*/
+    img {
+         max-width: 100%; /* se adapta al primer width*/
+         }
+
+    p {
+        text-align: justify;
+    }     
+
+
+
+
+
+}

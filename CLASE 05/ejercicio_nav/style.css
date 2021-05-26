@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+
+
+header{
+    background-color: #243572;
+}
+nav{
+    
+    text-align: center;
+}
+
+ul {
+    display: flex; 
+    list-style: none; /*para quitar las viñetas*/
+    }
+
+a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.container {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    border: 2px solid white;
+}
+
+li {
+    margin: 20px;
+    }
+
+
+/* los contenedores sirven para orden objetos*/
+/* header> nav > container > img | ul

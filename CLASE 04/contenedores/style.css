@@ -1,0 +1,15 @@
+/* reseteamos los margenes del body, que por defecto tiene 8px de margen, el body. El elemento body es el contenedor para todos los aspectos representables de un documento. Este es el lugar donde los autores arrojan todos los elementos y contenidos que sus visitantes alcanzarán. El elemento body es parte de la estructura básica de un documento.*/
+
+body, h1 { /*si pongo coma separo y agrego la misma propiedad a otra etiqueta
+.*/    margin: 0; /* solo cambio los margenes laterales, h1 tambien tiene margenes*/
+}
+
+/* h1 {   margin: 0; } */
+
+header {
+    background-color:  orange;
+}
+
+.container {
+    width: 700px;   /*ancho, si pongo porcentaje se adapta a la pantalla*/
+}

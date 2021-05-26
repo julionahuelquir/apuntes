@@ -1,0 +1,29 @@
+body {
+    margin:0;
+}
+
+nav {
+
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+header {
+    background-color: palevioletred;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.header.title, .header-image {  /* la coma es "y" */
+
+}

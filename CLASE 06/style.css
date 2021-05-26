@@ -1,0 +1,42 @@
+.container  {
+    display: flex; /* para que cada box se posiciones uno del lado del otro*/
+    justify-content: center;
+   border: 2px solid black; 
+   max-width: 1200px; /*max-width sirve para poner un maximo de longitud, y el minimo que se ajuste automaticamente*/
+}
+
+.box {
+    width: 200px; 
+    height: 200px;
+    background-color: orange;
+    margin: 10px; /* para separar entre cada box(caja naranja)*/
+}
+
+.j-center {
+    justify-content: center;
+    }
+
+.j-space-between {
+    justify-content: space-between;
+    }
+
+nav {
+    background-color: palevioletred;
+    display: flex;
+    justify-content:  space-between;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0;
+}
+
+nav ul a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
