@@ -1,0 +1,16 @@
+.btn-primary {
+    color: #fff;
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+.btn-primary:hover .btn-primary:active .btn-primary:focus {
+    color: #fff;
+    background-color: red;
+    border-color: #0a58ca;
+}
+
+.carrousel-c-container {
+    max-width: 768px;
+    margin: 0 auto;
+}
